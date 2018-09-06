@@ -34,7 +34,7 @@ if __name__ == '__main__':
 
     im = Image.open(IMG)
     im = im.resize((WIDTH,HEIGHT), Image.NEAREST)
-
+    
     txt = ""
 
     for i in range(HEIGHT):
